@@ -18,7 +18,7 @@ MARA-LEB will serve as a system for additional isotopic and mass selection after
     \label{fig:LEB_dia}
 \end{figure}
 
-The transport electrodes and mass separator have to be operated in vacuum, due to the use of strong electromagnetic fields that may discharge. However, the ions exiting the gas cell do so within a gas jet at relatively high pressures. Since this introduction of gas into the system is vital to the operation of MARA-LEB, but components down the beamline have to work in high vacuum, a system of \textbf{differential pumping} was designed for this facility. 
+The transport electrodes and mass separator have to be operated in vacuum, due to the use of strong electromagnetic fields that may discharge. However, the ions exiting the gas cell do so within a gas jet at relatively high pressures. Since this introduction of gas into the system is vital to the operation of MARA-LEB, but components down the beamline have to work in high vacuum, a system of {differential pumping} was designed for this facility. 
 
 In this report, both the normal and differential pumping regions will be discussed, with special focus on the latter, due to its higher complexity. 
 \newpage
@@ -27,14 +27,27 @@ In this report, both the normal and differential pumping regions will be discuss
 \label{sec:mara}
 The first component of the LEB facility is the gas cell, which, as previously stated, is kept at relatively high pressures of 500-1000\,mbar, alongside the chamber it will be installed within. The gas cell will be placed at the MARA focal plane, to receive the mass-separated recoils coming from the deflector. MARA, however, is kept at high vacuum, of about $10^{-7}$\,mbar. Therefore, there must be a barrier separating these two regions, which should be strong enough to withstand pressure differences of up to  $10^{10}$\,mbar but not stop recoils from entering the gas cell.
 
+A thin gas cell window will be installed at the entrance of the gas cell, and supported by a honeycomb structure, to separate these regions. The material and thickness of the window can be varied on a case-to-case basis, but several options have been suggested and simulated, such as 13\,\textmu m-thick Mylar or 4.5\,\textmu m-thick Havar.
 
+\section{Pumping system}
+\label{sec:pump}
 
-\begin{figure}[H]
+The planned vacuum system for the facility includes three types of pumps, three types of valves and three types of gauges. The whole vacuum diagram can be seen in \autoref{fig:fullsystem}, where the different vacuum chambers are shown with their planned pumps, valves and gauges.
+
+The vacuum components for each chamber have been selected specifically for their target pressures, which will not all be the same due to the presence of the differential pumping section. The gas cell chamber, which will house the gas cell and the 90º-bent RFQ, is planned to have pressures ranging from 0.1 to 0.01\,mbar, which means that the gas inside will be in a viscous regime. The second chamber, with the straight RFQ, will hold pressures from $10^{-2}$ down to $10^{-6}$\,mbar, having gas at an intermediate to molecular regime within it. The rest of the chambers (including the extraction chamber), will be maintained at a target pressure of $10^{-6}$\,mbar, at a molecular regime. 
+
+\begin{figure}[h]
     \centering
-     \includegraphics[width=1.2\textwidth]{pumpdia2.pdf}
-     \caption{Full vacuum diagram for the MARA-LEB facility, including pumps, gates and gauges to be used. The differential pumping region is highlighted in orange. The inset shows a legend for the diagram.}
-     \label{fig:}
+    \includegraphics[width=1\textwidth]{pumpdia2.pdf}
+     \caption{Full vacuum system diagram for the MARA-LEB facility, including pumps, gates and gauges to be used. The differential pumping region is highlighted in orange. The inset shows a legend for the diagram.}
+     \label{fig:fullsystem}
  \end{figure}
+
+\subsection{Pumps}
+Every vacuum chamber, except the gas cell chamber, is pumped down by a turbomolecular (turbo) pump, with pumping speeds between 1000 and 2000\,L/s. These pumps are suited for molecular and intermediate regimes, which will be maintained in the chambers after an initial pumpdown.
+
+Every turbo pump is backed by a scroll pump. These pumps are ideal for viscous flow, and will perform pumpdowns from ambient pressure. 
+
 
 \end{document}
 

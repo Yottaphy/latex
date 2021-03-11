@@ -6,9 +6,10 @@
 
 \pagenumbering{arabic}
 \section{Introduction}
+\label{sec:intro}
 The Low Energy Branch (LEB) is a new facility, designed as an extension for the MARA (Mass Analysing Recoil Apparatus) deflector at the Accelerator Laboratory in the University of Jyväskylä.
 
-MARA-LEB will serve as a system for additional isotopic and mass selection after MARA. 
+MARA-LEB will serve as a system for additional isotopic and mass selection after MARA. One of MARA-LEB's most important components is its buffer gas cell. Within it, a noble gas (He or Ar) will flow at $\sim$500-1000\,mbar, which will stop and neutralise recoils coming from MARA at high charge states. The recoils will then be laser ionised and then transported to detectors via acceleration with radio-frequency quadrupoles (RFQ) and transport by electrodes, as shown in \autoref{fig:LEB_dia}, effectively selecting only one particular element from all recoils from MARA. A magnetic dipole will perform additional mass separation before the detector station for further purification of the beam.
 
 \begin{figure}[H]
     \centering
@@ -16,7 +17,24 @@ MARA-LEB will serve as a system for additional isotopic and mass selection after
     \caption{Diagram of the MARA-LEB facility, highlighting the gas cell and showing in-gas-cell laser ionisation.}
     \label{fig:LEB_dia}
 \end{figure}
+
+The transport electrodes and mass separator have to be operated in vacuum, due to the use of strong electromagnetic fields that may discharge. However, the ions exiting the gas cell do so within a gas jet at relatively high pressures. Since this introduction of gas into the system is vital to the operation of MARA-LEB, but components down the beamline have to work in high vacuum, a system of \textbf{differential pumping} was designed for this facility. 
+
+In this report, both the normal and differential pumping regions will be discussed, with special focus on the latter, due to its higher complexity. 
+\newpage
+
+\section{High Vacuum at MARA}
+\label{sec:mara}
+The first component of the LEB facility is the gas cell, which, as previously stated, is kept at relatively high pressures of 500-1000\,mbar, alongside the chamber it will be installed within. The gas cell will be placed at the MARA focal plane, to receive the mass-separated recoils coming from the deflector. MARA, however, is kept at high vacuum, of about $10^{-7}$\,mbar. Therefore, there must be a barrier separating these two regions, which should be strong enough to withstand pressure differences of up to  $10^{10}$\,mbar but not stop recoils from entering the gas cell.
+
+
+
+\begin{figure}[H]
+    \centering
+     \includegraphics[width=1.2\textwidth]{pumpdia2.pdf}
+     \caption{Full vacuum diagram for the MARA-LEB facility, including pumps, gates and gauges to be used. The differential pumping region is highlighted in orange. The inset shows a legend for the diagram.}
+     \label{fig:}
+ \end{figure}
+
 \end{document}
-
-
 

@@ -55,6 +55,7 @@ The gas cell chamber, which will house the gas cell and the 90º-bent RFQ, is pl
   \end{figure}
 
 \subsection{Pumps}
+\label{subsec:pumps}
 The most important components for the evacuation of the system and the maintainance of the vacuum level are the pumps. The different types and models of pumps chosen for installation in MARA-LEB can be seen in \autoref{tab:Pumps}. These have been chosen primarily for their evacuating power and speed, especially for the differential pumping section, whose pumps will have to deal with higher pressures even after an initial pumpdown. In other sections, where power is less crucial, pumps have been selected with costs in mind.
 
 \begin{table}[h!]
@@ -100,9 +101,25 @@ Finally, there are two extra scroll pumps, more powerful than the scroll pumps e
 The differential pumping section has to be pumped down independently due to its different conditions. In particular, the gas cell requires baking every time it is replaced, to remove contaminants. This process introduces a constant flow of gas into the gas cell chamber, which would disrupt the pumping of the rest of the system. 
 
 
-\subsection{Gauges and Valves}
-\label{subsec:gaugesandvalves}
+\subsection{Gauges}
+\label{subsec:gauges}
 
+Other key components of the vacuum system are its gauges. Gauges allow for the monitoring of pressure at different points in the beamline. This is crucial to make decisions on when to change pumps or to detect problems within the facility, such as leaks. 
+
+In MARA-LEB, every turbo pump is backed by a scroll pump, as explained in \autoref{subsec:pumps}. At every connection between a scroll and a turbo pump, there will be a Pirani gauge. These will monitor the vacuum level produced by the scroll pumps to allow for the correct functioning of the turbo pumps. Pirani gauges are suited to the intermediate gas regime produced by the scroll pumps, as they are thermal conductivity gauges, which must operate with a moderate to high gas density. 
+
+Additionally, every zone of the regular pumping section which can be isolated by valves is monitored by a Full Range gauge. Each individual chamber in the differential pumping section will also be fitted with one of these gauges. These gauges are a two-in-one gauge: they combine a Pirani and a cold cathode gauge. This way, higher pressures (viscous to intermediate regime) can be measured by the Pirani gauge and lower pressures (intermediate to molecular regime) can be registered by the cold-cathode gauge.
+
+The gas cell chamber also is planned to have a capacitive gauge with a 1000\,mbar range. This will allow the higher pressures that will be present in the gas cell chamber to be correctly monitored.
+
+\subsection{Valves}
+\label{subsec:valves}
+
+Valves are what allows different sections of the system to be isolated from one another, as well as to connect to pumps. They are vital for the control of the vacuum in the facility.
+
+The valves that connect chambers between them and to pumps will be simple gate valves. These can be either manually or electronically operated. They work by physically blocking the connecting orifice with a barrier. Venting valves will also be installed at different points along the beamline to allow for the re-introduction of air into the vacuum chambers.
+
+The screw pump connected to the gas cell chamber will be regulated by a motorised pendulum valve. This will allow the conductance between the chamber and the pump to be varied so that the effective pumping speed at the chamber changes. This will make the pressure inside this chamber easily regulatable. Pendulum valves work by partially opening or closing an aperture to a desired size, allowing the controller to restrict or allow gasflow as desired.
 
 \end{document}
 

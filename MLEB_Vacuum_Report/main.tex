@@ -34,8 +34,6 @@ A thin gas cell window will be installed at the entrance of the gas cell, and su
 
 The planned vacuum system for the facility includes three types of pumps, three types of valves and three types of gauges. The whole vacuum diagram can be seen in \autoref{fig:fullsystem}, where the different vacuum chambers are shown with their planned pumps, valves and gauges.
 
-The vacuum components for each chamber have been selected specifically for their target pressures, which will not all be the same due to the presence of the differential pumping section. The gas cell chamber, which will house the gas cell and the 90º-bent RFQ, is planned to have pressures ranging from 0.1 to 0.01\,mbar, which means that the gas inside will be in a viscous regime. The second chamber, with the straight RFQ, will hold pressures from $10^{-2}$ down to $10^{-6}$\,mbar, having gas at an intermediate to molecular regime within it. The rest of the chambers (including the extraction chamber), will be maintained at a target pressure of $10^{-6}$\,mbar, at a molecular regime. 
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{pumpdia2.pdf}
@@ -43,17 +41,28 @@ The vacuum components for each chamber have been selected specifically for their
      \label{fig:fullsystem}
  \end{figure}
 
-\subsection{Pumps}
-Every vacuum chamber, except the gas cell chamber, is pumped down by a turbomolecular (turbo) pump, with pumping speeds between 1000 and 2000\,L/s. These pumps are suited for molecular and intermediate regimes, which will be maintained in the chambers after an initial pumpdown.
+The vacuum components for each chamber have been selected specifically for their target pressures, which will not all be the same due to the presence of the differential pumping section, whose chambers can be seen in \autoref{fig:diff_sect}. 
+\newpage
 
-Every turbo pump is backed by at least one  scroll pump; some chambers feature  two scroll pumps. These pumps are ideal for viscous flow, and will perform pumpdowns from ambient pressure. 
+The gas cell chamber, which will house the gas cell and the 90º-bent RFQ, is planned to have pressures ranging from 0.1 to 0.01\,mbar, which means that the gas inside will be in a viscous regime. The second chamber, with the straight RFQ, will hold pressures from $10^{-2}$ down to $10^{-6}$\,mbar, having gas at an intermediate to molecular regime within it. The rest of the chambers (including the extraction chamber), will be maintained at a target pressure of $10^{-6}$\,mbar, at a molecular regime. 
+
+
+ \begin{figure}[H]
+     \centering
+      \includegraphics[width=\textwidth]{LEBdiff.pdf}
+      \caption{Distribution of the MARA-LEB facility components in different vacuum chambers: 1. Gas Cell Chamber, 2. Second Chamber, 3. Extraction Chamber.}
+      \label{fig:diff_sect}
+  \end{figure}
+
+\subsection{Pumps}
+The most important components for the evacuation of the system and the maintainance of the vacuum level are the pumps. The different types and models of pumps chosen for installation in MARA-LEB can be seen in \autoref{tab:Pumps}. These have been chosen primarily for their evacuating power and speed, especially for the differential pumping section, whose pumps will have to deal with higher pressures even after an initial pumpdown. In other sections, where power is less crucial, pumps have been selected with costs in mind.
 
 \begin{table}[h!]
-    \caption{Different types of pumps planned for use in the MARA-LEB facility.}
+    \caption{Different types of pumps planned for use in the MARA-LEB facility, organised by location and showing their pumping speed for \ce{^{}N_{2}}}
      \label{tab:Pumps}
     \centering
     \hspace*{-0.5em}
-    \begin{tabular}{@{}llll@{}}
+    \begin{tabular}{@{}lllc@{}}
     \hline
     \multicolumn{1}{c}{\textbf{Pump}} & \multicolumn{1}{c}{\textbf{Pump}}  & \multicolumn{1}{c}{\textbf{Pump}} & \multicolumn{1}{c}{\textbf{Pumping}} \\
     \multicolumn{1}{c}{\textbf{Location}} & \multicolumn{1}{c}{\textbf{Type}} & \multicolumn{1}{c}{\textbf{Model}} & {\textbf{Speed [L/s]}} \\
@@ -79,6 +88,19 @@ Every turbo pump is backed by at least one  scroll pump; some chambers feature  
     \hline
     \end{tabular}
  \end{table}
+
+Every vacuum chamber except the gas cell chamber, is maintained at vacuum by a turbomolecular (turbo) pump. These pumps are suited for molecular and intermediate regimes, which will be present in these chambers after an initial pumpdown. Every turbo pump is backed by a scroll pump. Due to the way in which turbomolecular pumps work, they need low pressure on the exhaust side, which is obtained by the scroll pumps.
+
+The turbomolecular pumps at the second and extraction chambers, which have higher pressures due to them being in the differential pumping section, have slightly more powerful pumps.
+
+The gas cell chamber, being at relatively  high
+
+Additionally, the
+
+
+\subsection{Gauges and Valves}
+\label{subsec:gaugesandvalves}
+
 
 \end{document}
 

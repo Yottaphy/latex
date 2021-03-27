@@ -35,6 +35,7 @@
 \usepackage{transparent}
 \usepackage{media9}
 \usepackage{graphicx}
+\usepackage{gensymb}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Informationsm
 \title{\textsc{It IS only rocket science!}}
@@ -213,8 +214,125 @@ Perseverance is a rover within the NASA Mars 2020 Mission. It was launched on 30
         \end{textblock*}
     \end{frame}
     
-    \begin{frame}{\textsc{}}
+    \begin{frame}{\textsc{Martian Year}}
+        \begin{textblock*}{5cm}(7cm,4cm)
+            \centering
+            \includegraphics[scale=0.25]{assets/eccentricity.pdf}
+        \end{textblock*}
+        
+        \begin{textblock*}{5cm}(1cm,5cm)
+            \centering
+            \begin{tabular}{ccc}
+                \hline
+                \textbf{Planet} &{\textbf{Excentricity}} & {\textbf{Radius [AU]}}\\
+                \hline
+                \textbf{Earth}   &  0.0167 & {1.00} \\
+                \textbf{Mars}    &  0.0934 & {1.52} \\ \hline
+            \end{tabular}
+        \end{textblock*}
+        
+        \begin{textblock*}{12cm}(.5cm,2cm)
+        \begin{equation*}
+            \onslide<2->{\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T_{\text{Mars}}^2}{r_{\text{Mars}}^3}}
+        \end{equation*}
+        \end{textblock*}
+    \end{frame}
 
+    \begin{frame}{\textsc{Getting to Mars}}
+        \begin{textblock*}{5cm}(7cm,4cm)
+            \centering
+            \begin{align*}
+                T_{\text{Mars}}^2 &= \frac{T_{\text{Earth}}^2}{r_{\text{Earth}^3}} r_{\text{Mars}}^3 \\
+                T_{\text{Mars}} &= \sqrt{\frac{T_{\text{Earth}}^2}{r_{\text{Earth}^3}} r_{\text{Mars}}^3} \\
+                T_{\text{Mars}} &= \sqrt{\frac{365^2}{1^3}{(1.52)^3}} \\
+                T_{\text{Mars}} &= 684\,\text{days}
+            \end{align*}
+        \end{textblock*}
+        
+        \begin{textblock*}{5cm}(1cm,5cm)
+            \centering
+            \begin{tabular}{ccc}
+                \hline
+                \textbf{Planet} &{\textbf{Excentricity}} & {\textbf{Radius [AU]}}\\
+                \hline
+                \textbf{Earth}   &  0.0167 & {1.00} \\
+                \textbf{Mars}    &  0.0934 & {1.52} \\ \hline
+            \end{tabular}
+        \end{textblock*}
+        
+        \begin{textblock*}{12cm}(.5cm,2cm)
+        \begin{equation*}
+            {\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T_{\text{Mars}}^2}{r_{\text{Mars}}^3}}
+        \end{equation*}
+        \end{textblock*}
+    \end{frame}
+
+    \begin{frame}{\textsc{Getting to Mars}}
+        \centering
+        \includegraphics<1>[scale=0.4]{assets/persOrbit0.pdf}
+        
+        \includegraphics<2>[scale=0.4]{assets/persOrbit1.pdf}
+        
+        \includegraphics<3>[scale=0.4]{assets/persOrbit2.pdf}
+
+        \includegraphics<4>[scale=0.4]{assets/busy.pdf}
+
+        \includegraphics<5>[scale=0.6]{assets/orbit_pers.pdf}
+    \end{frame}
+    
+    \begin{frame}{\textsc{Getting to Mars}}
+        \begin{textblock*}{5cm}(1cm,4cm)
+            \centering
+            \includegraphics[scale=0.35]{assets/orbit_pers.pdf}
+        \end{textblock*}
+        
+        \begin{textblock*}{4cm}(7cm,3cm)
+            \centering
+            \begin{align*}
+                T^2 &= \frac{T^2_{\text{Earth}}}{r^3_{\text{Earth}}}\times a^3\\
+                T &= \sqrt{\frac{T^2_{\text{Earth}}}{r^3_{\text{Earth}}}\times a^3}\\
+                T &= \sqrt{\frac{365^2}{1^3}\times (1.26)^3}\\
+                T &= 516\,\text{days}
+            \end{align*}
+            \begin{align*}
+                \onslide<2->{\boxed{T / 2 = 258\,\text{days}}}
+            \end{align*}
+
+        \end{textblock*}
+        
+        \begin{textblock*}{12cm}(.5cm,2cm)
+        \begin{equation*}
+            {\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T^2}{a^3}}
+        \end{equation*}
+        \end{textblock*}
+    \end{frame}
+
+    \begin{frame}{\textsc{When to Launch}}
+        \begin{textblock*}{5cm}(1cm,4cm)
+            \centering
+            \includegraphics[scale=0.35]{assets/alpha.pdf}
+        \end{textblock*}
+        
+        \begin{textblock*}{4cm}(8cm,3.5cm)
+            After $N$ = 258 days, Mars has to be at 180\textdegree with respect to the Earth's initial position.
+
+            Assuming that Mars starts off at an angle $\alpha$ from the Earth:
+
+            \centering
+            \begin{align*}
+                N \times \omega_{\text{Mars}} = 180-\alpha\\
+                \alpha = 180 - (N \times \omega_{\text{Mars}})\\
+                \alpha = 180 - (258 \times 0.526)\\
+                \boxed{\alpha = 44.3\degree}
+            \end{align*}
+
+        \end{textblock*}
+        
+        \begin{textblock*}{12cm}(.5cm,2cm)
+        \begin{equation*}
+            \omega_{\text{Earth}} = \frac{360}{365} = 0.986\degree/\text{day} \hspace*{3em}  \omega_{\text{Mars}} = \frac{360}{684} = 0.526\degree/\text{day}
+        \end{equation*}
+        \end{textblock*}
     \end{frame}
 
 \end{document}

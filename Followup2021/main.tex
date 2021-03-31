@@ -14,7 +14,7 @@
 \usefolder{styles}
 % Use Flux theme v0.1 beta
 % Available style: asphalt, blue, red, green, gray 
-\usetheme[style=red]{flux}
+\usetheme[style=asphalt]{flux}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,6 +24,8 @@
 \usepackage{ragged2e}
 \usepackage{schemabloc}
 \usepackage{hyperref}
+\graphicspath{{./assets/}}
+
 \usebackgroundtemplate{
 \includegraphics[width=\paperwidth, height=\paperheight]{assets/background.pdf}}%change this to your preferred background for the presentation.
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,12 +40,12 @@
 \usepackage{gensymb}
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 % Informationsm
-\title{\textsc{It IS only rocket science!}}
-\subtitle{Maths Club - March 2021}
+\title{\textsc{Follow-up Meeting}}
+\subtitle{\textbf{Jorge Romero}}
 
-\author{\textbf{Jorge Romero}}
-\institute{University of Liverpool, Jyväskylän Yliopisto}
-\titlegraphic{assets/MathsClub.pdf} %change this to your preferred logo or image(the image is located on the top right corner).
+\author{\textbf{Jyväskylän Yliopisto}}
+\institute{5. huhtikuuta 2021}
+\titlegraphic{assets/logo_white.pdf} %change this to your preferred logo or image(the image is located on the top right corner).
 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 \begin{document}
@@ -58,281 +60,53 @@
 
 % \section{Introduction}
 % \subsection{MARA-LEB}
-\begin{frame}{\textsc{Introduction}}
-\begin{textblock*}{7.5cm}(5cm,1.5cm)
-\includegraphics[scale=0.8]{assets/fresh-rocket-leaf-500x500.jpg}
-\end{textblock*}
+\begin{frame}{\textsc{Physics Courses}}
+    \begin{textblock*}{12cm}(0.5cm,1.1cm)
+    {\Large \textbullet \textbf{Discipline-Specific Skills}}
+        
+    \vspace{1em}
+    Completed
 
-\begin{textblock*}{4cm}(.5cm,2.25cm)
-Rocket or arugula (\textit{Eruca vesicaria}) is an edible annual plant in the family Brassicaceae used as a leaf vegetable for its fresh, tart, bitter, and peppery flavour. \textit{Eruca sativa}, which is widely popular as a salad vegetable, is a species of \textit{Eruca} native to the Mediterranean region, from Morocco and Portugal in the west to Syria, Lebanon, Egypt and Turkey in the east.
-\end{textblock*}
+    {\centering\includegraphics[scale=0.75]{vacuum.pdf}}
+
+    \onslide<2->{Starting next year:}
+
+     {\centering   \includegraphics<2->[scale=0.75]{accelerator.pdf}
+        \includegraphics<2->[scale=0.75]{laser.pdf}}
+
+    \onslide<3->{Starting next year:}
+
+    {  \includegraphics<3->[scale=0.75]{models.pdf}}
+
+    \begin{center}
+        \onslide<4->{\textbf{Physics Credit Total: 24/40 cr}}
+    \end{center}
+    \end{textblock*}    
 \end{frame}
 
-\begin{frame}{\textsc{Proper Introduction}}
-\begin{textblock*}{10.5cm}(1.1cm,1.5cm)
-{\hfill\footnotesize Picture: NASA} 
-\includegraphics[scale=0.25]{assets/Perseverance.jpg}
-\end{textblock*}
+\begin{frame}{\textsc{Transferable Skills Courses}}
+    \begin{textblock*}{12cm}(0.5cm,1.1cm)
+    {\Large \textbullet \textbf{Research Competence Courses}}
 
-\begin{textblock*}{12cm}(.5cm,8cm)
-Perseverance is a rover within the NASA Mars 2020 Mission. It was launched on 30 July 2020, and landed successfully in Mars on 18 February 2021. 
-\end{textblock*}
+    Compulsory course (completed):
+    {\centering\includegraphics[scale=0.75]{ethics.pdf}}
+
+    \onslide<2->{{\Large \textbullet \textbf{Communication Skills Courses}}
+
+     \includegraphics[scale=0.75]{finnish.pdf}}
+
+    \onslide<3->{{\Large \textbullet \textbf{Other Competence}}
+
+     \includegraphics[scale=0.75]{practical.pdf}
+     
+     \includegraphics[scale=0.75]{conference.pdf}}
+
+     \begin{center}
+        \onslide<4->{\textbf{Non-Physics Credit Total: Up to 27/40 cr}}
+    \end{center}
+
+    \end{textblock*}    
 \end{frame}
 
-\begin{frame}{\textsc{Trip to Mars}}
-    \centering
-
-    \includegraphics<1>[width=0.9\textwidth]{assets/animation/animation-0.png}
-
-    \includegraphics<2>[width=0.9\textwidth]{assets/animation/animation-50.png}
-
-    \includegraphics<3>[width=0.9\textwidth]{assets/animation/animation-100.png}
-
-    \includegraphics<4>[width=0.9\textwidth]{assets/animation/animation-150.png}
-
-    \includegraphics<5>[width=0.9\textwidth]{assets/animation/animation-200.png}
-
-    \includegraphics<6>[width=0.9\textwidth]{assets/animation/animation-250.png}
-
-    \includegraphics<7>[width=0.9\textwidth]{assets/animation/animation-300.png}
-
-    \includegraphics<8>[width=0.9\textwidth]{assets/animation/animation-350.png}
-
-    \includegraphics<9>[width=0.9\textwidth]{assets/animation/animation-400.png}
-
-    \includegraphics<10>[width=0.9\textwidth]{assets/animation/animation-411.png}
-\end{frame}
-
-\begin{frame}{\textsc{Kepler's Laws}}
-    \centering
-    \begin{textblock*}{10.5cm}(0.5cm,1.1cm)
-        \begin{itemize}
-            \item<1->The orbit of a planet is an ellipse with the Sun at one of the two foci.
-            \item<3->A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
-            \item<5->The square of a planet's orbital period is proportional to the cube of the length of the semi-major axis of its orbit.
-        \end{itemize}
-    \end{textblock*}
-    \begin{textblock*}{10.5cm}(1cm,3.25cm)
-        \centering
-        \begin{equation*}
-            \onslide<2>{\frac{x^2}{a^2}+\frac{y^2}{b^2} = 1}
-        \end{equation*} 
-    \end{textblock*}
-    \begin{textblock*}{10.5cm}(1cm,3.25cm)  
-        \centering
-        \begin{equation*}           
-            \onslide<4>{A_1 = A_2 \Rightarrow t_1 = t_2}
-        \end{equation*}
-    \end{textblock*}
-    \begin{textblock*}{10.5cm}(1cm,3.25cm)  
-        \centering
-        \begin{equation*}           
-            \onslide<6>{\frac{T_1^2}{a_1^3} = \frac{T_2^2}{a_2^3}}
-        \end{equation*}
-    \end{textblock*}
-    \begin{textblock*}{10.5cm}(1cm,4.5cm)
-        \centering
-        \includegraphics<2>[width=0.5\textwidth]{assets/ellipse.pdf}
-        \includegraphics<4>[width=0.5\textwidth]{assets/areas.pdf}
-        \includegraphics<6>[width=0.5\textwidth]{assets/periods.pdf}
-    \end{textblock*}
-\end{frame}
-
-\begin{frame}{\textsc{Dealing With Ellipses}}
-    \begin{textblock*}{10.5cm}(1.1cm,4cm)
-        \centering
-        \includegraphics<1>[scale=1]{assets/ellipse.pdf}
-        \includegraphics<2->[scale=1]{assets/circle.pdf}
-    \end{textblock*}
-    
-    \begin{textblock*}{12cm}(.5cm,2cm)
-    \begin{equation*}
-        a = r; b = r \onslide<2->{\Rightarrow F_1 = F_2}
-    \end{equation*}
-    \begin{equation*}
-        \frac{x^2}{r^2}+\frac{y^2}{r^2} = 1 \onslide<2->{\Rightarrow \boxed{x^2+y^2 = r^2}}
-    \end{equation*}
-
-    \end{textblock*}
-    \begin{textblock*}{12cm}(.5cm,8cm)
-        \begin{equation*}
-            \onslide<3->{e = \sqrt{1-\frac{b^2}{a^2}}}
-        \end{equation*}  
-        \end{textblock*}
-    \end{frame}
-
-    \begin{frame}{\textsc{Dealing With Ellipses}}
-        \begin{textblock*}{5cm}(7cm,4cm)
-            \centering
-            \includegraphics<2->[scale=0.25]{assets/eccentricity.pdf}
-        \end{textblock*}
-        
-        \begin{textblock*}{5cm}(1cm,5cm)
-            \centering
-            \begin{tabular}{ccc}
-                \hline
-                \textbf{Planet} &{\textbf{Excentricity}} & \onslide<3->{\textbf{Radius [AU]}}\\
-                \hline
-                \textbf{Earth}   &  0.0167 & \onslide<3->{1.00} \\
-                \textbf{Mars}    &  0.0934 & \onslide<3->{1.52} \\ \hline
-            \end{tabular}
-        \end{textblock*}
-        
-        \begin{textblock*}{12cm}(.5cm,2cm)
-        \begin{equation*}
-            e = \sqrt{1-\frac{b^2}{a^2}}
-        \end{equation*}
-        \end{textblock*}
-    \end{frame}
-
-    \begin{frame}{\textsc{Proving Kepler's 2nd Law}}
-        \centering
-        \begin{textblock*}{10.5cm}(0.5cm,1.1cm)
-            \begin{itemize}
-                \item A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
-            \end{itemize}
-        \end{textblock*}
-
-        \begin{textblock*}{10.5cm}(4cm,2.5cm)
-            \centering
-            \begin{align*}
-                \text{A} &= \frac{1}{2}\text{b}\times\text{h} \\        
-                s &= r\theta \\
-                A&=\frac{1}{2}r\times\left(r\theta\right) \\          
-                A&=\frac12 \theta r^2 \\
-            \end{align*}
-            \begin{align*}
-                \frac{\Delta A}{\Delta t} &= \frac{1}{2}\frac{\Delta \theta}{\Delta t}r^2 \\
-                \frac{\Delta A}{\Delta t} &= \frac{1}{2}r^2 \omega =\frac{L}{2m}  \\          
-                \frac{\Delta A}{\Delta t} &= \rm{constant}
-            \end{align*} 
-        \end{textblock*}
-        
-        \begin{textblock*}{8cm}(0cm,3cm)
-            \centering
-            \includegraphics[width=0.6\textwidth]{assets/areas_proof.pdf}
-        \end{textblock*}
-    \end{frame}
-    
-    \begin{frame}{\textsc{Martian Year}}
-        \begin{textblock*}{5cm}(7cm,4cm)
-            \centering
-            \includegraphics[scale=0.25]{assets/eccentricity.pdf}
-        \end{textblock*}
-        
-        \begin{textblock*}{5cm}(1cm,5cm)
-            \centering
-            \begin{tabular}{ccc}
-                \hline
-                \textbf{Planet} &{\textbf{Excentricity}} & {\textbf{Radius [AU]}}\\
-                \hline
-                \textbf{Earth}   &  0.0167 & {1.00} \\
-                \textbf{Mars}    &  0.0934 & {1.52} \\ \hline
-            \end{tabular}
-        \end{textblock*}
-        
-        \begin{textblock*}{12cm}(.5cm,2cm)
-        \begin{equation*}
-            \onslide<2->{\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T_{\text{Mars}}^2}{r_{\text{Mars}}^3}}
-        \end{equation*}
-        \end{textblock*}
-    \end{frame}
-
-    \begin{frame}{\textsc{Getting to Mars}}
-        \begin{textblock*}{5cm}(7cm,4cm)
-            \centering
-            \begin{align*}
-                T_{\text{Mars}}^2 &= \frac{T_{\text{Earth}}^2}{r_{\text{Earth}^3}} r_{\text{Mars}}^3 \\
-                T_{\text{Mars}} &= \sqrt{\frac{T_{\text{Earth}}^2}{r_{\text{Earth}^3}} r_{\text{Mars}}^3} \\
-                T_{\text{Mars}} &= \sqrt{\frac{365^2}{1^3}{(1.52)^3}} \\
-                T_{\text{Mars}} &= 684\,\text{days}
-            \end{align*}
-        \end{textblock*}
-        
-        \begin{textblock*}{5cm}(1cm,5cm)
-            \centering
-            \begin{tabular}{ccc}
-                \hline
-                \textbf{Planet} &{\textbf{Excentricity}} & {\textbf{Radius [AU]}}\\
-                \hline
-                \textbf{Earth}   &  0.0167 & {1.00} \\
-                \textbf{Mars}    &  0.0934 & {1.52} \\ \hline
-            \end{tabular}
-        \end{textblock*}
-        
-        \begin{textblock*}{12cm}(.5cm,2cm)
-        \begin{equation*}
-            {\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T_{\text{Mars}}^2}{r_{\text{Mars}}^3}}
-        \end{equation*}
-        \end{textblock*}
-    \end{frame}
-
-    \begin{frame}{\textsc{Getting to Mars}}
-        \centering
-        \includegraphics<1>[scale=0.4]{assets/persOrbit0.pdf}
-        
-        \includegraphics<2>[scale=0.4]{assets/persOrbit1.pdf}
-        
-        \includegraphics<3>[scale=0.4]{assets/persOrbit2.pdf}
-
-        \includegraphics<4>[scale=0.4]{assets/busy.pdf}
-
-        \includegraphics<5>[scale=0.6]{assets/orbit_pers.pdf}
-    \end{frame}
-    
-    \begin{frame}{\textsc{Getting to Mars}}
-        \begin{textblock*}{5cm}(1cm,4cm)
-            \centering
-            \includegraphics[scale=0.35]{assets/orbit_pers.pdf}
-        \end{textblock*}
-        
-        \begin{textblock*}{4cm}(7cm,3cm)
-            \centering
-            \begin{align*}
-                T^2 &= \frac{T^2_{\text{Earth}}}{r^3_{\text{Earth}}}\times a^3\\
-                T &= \sqrt{\frac{T^2_{\text{Earth}}}{r^3_{\text{Earth}}}\times a^3}\\
-                T &= \sqrt{\frac{365^2}{1^3}\times (1.26)^3}\\
-                T &= 516\,\text{days}
-            \end{align*}
-            \begin{align*}
-                \onslide<2->{\boxed{T / 2 = 258\,\text{days}}}
-            \end{align*}
-
-        \end{textblock*}
-        
-        \begin{textblock*}{12cm}(.5cm,2cm)
-        \begin{equation*}
-            {\frac{T_{\text{Earth}}^2}{r_{\text{Earth}}^3} = \frac{T^2}{a^3}}
-        \end{equation*}
-        \end{textblock*}
-    \end{frame}
-
-    \begin{frame}{\textsc{When to Launch}}
-        \begin{textblock*}{5cm}(1cm,3cm)
-            \centering
-            \includegraphics[scale=0.3]{assets/alpha.pdf}
-        \end{textblock*}
-        
-        \begin{textblock*}{4cm}(8cm,3.5cm)
-            After $N$ = 258 days, Mars has to be at 180\textdegree with respect to the Earth's initial position.
-
-            Assuming that Mars starts off at an angle $\alpha$ from the Earth:
-
-            \centering
-            \begin{align*}
-                N \times \omega_{\text{Mars}} = 180-\alpha\\
-                \alpha = 180 - (N \times \omega_{\text{Mars}})\\
-                \alpha = 180 - (258 \times 0.526)\\
-                \boxed{\alpha = 44.3\degree}
-            \end{align*}
-
-        \end{textblock*}
-        
-        \begin{textblock*}{12cm}(.5cm,2cm)
-        \begin{equation*}
-            \omega_{\text{Earth}} = \frac{360}{365} = 0.986\degree/\text{day} \hspace*{3em}  \omega_{\text{Mars}} = \frac{360}{684} = 0.526\degree/\text{day}
-        \end{equation*}
-        \end{textblock*}
-    \end{frame}
 
 \end{document}

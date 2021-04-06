@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="574.5"
+   height="418.79495"
+   id="svg1326"
+   sodipodi:docname="ROI.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata1332">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1330" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview1328"
+     showgrid="false"
+     inkscape:zoom="0.74183976"
+     inkscape:cx="313.42035"
+     inkscape:cy="183.26161"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1326" />
+  <rect
+     id="90Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="256.25"
+     y="192.25" />
+  <rect
+     id="91Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="192.25" />
+  <rect
+     id="92Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="192.25" />
+  <rect
+     id="92Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="160.25" />
+  <rect
+     id="93Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="192.25" />
+  <rect
+     id="93Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="160.25" />
+  <rect
+     id="94Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="192.25" />
+  <rect
+     id="94Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="1"
+     x="352.25"
+     y="160.25" />
+  <rect
+     id="94Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="128.25" />
+  <rect
+     id="95Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="192.25" />
+  <rect
+     id="95Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="160.25" />
+  <rect
+     id="95Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="128.25" />
+  <rect
+     id="96Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="448.25"
+     y="192.25" />
+  <rect
+     id="96Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="160.25" />
+  <rect
+     id="96Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="128.25" />
+  <rect
+     id="96In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="96.25" />
+  <rect
+     id="97Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="192.25" />
+  <rect
+     id="97Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="448.25"
+     y="160.25" />
+  <rect
+     id="97Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="128.25" />
+  <rect
+     id="97In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="96.25" />
+  <rect
+     id="98Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="512.25"
+     y="192.25" />
+  <rect
+     id="98Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="160.25" />
+  <rect
+     id="98Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="448.25"
+     y="128.25" />
+  <rect
+     id="98In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="96.25" />
+  <rect
+     id="99Pd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="192.25" />
+  <rect
+     id="99Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="512.25"
+     y="160.25" />
+  <rect
+     id="99Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="128.25" />
+  <rect
+     id="99In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="448.25"
+     y="96.25" />
+  <rect
+     id="99Sn0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="64.25" />
+  <rect
+     id="100Ag0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="160.25" />
+  <rect
+     id="100Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="512.25"
+     y="128.25" />
+  <rect
+     id="100In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="96.25" />
+  <rect
+     id="100Sn0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="1"
+     x="448.25"
+     y="64.25" />
+  <rect
+     id="101Cd0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="128.25" />
+  <rect
+     id="101In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="512.25"
+     y="96.25" />
+  <rect
+     id="101Sn0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="64.25" />
+  <rect
+     id="102In0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="96.25" />
+  <rect
+     id="102Sn0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="512.25"
+     y="64.25" />
+  <rect
+     id="103Sn0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="64.25" />
+  <rect
+     id="103Sb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="512.25"
+     y="32.25" />
+  <rect
+     id="104Sb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="544.25"
+     y="32.25" />
+  <rect
+     id="105Te0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#fffe49"
+     fill-opacity="0.15"
+     x="544.25"
+     y="0.25" />
+  <polygon
+     id="104Sb1"
+     stroke="#000000"
+     stroke-width="0"
+     stroke-linejoin="bevel"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="610"
+     y="98"
+     points="610.25,127.75 639.75,98.25 639.75,127.75 "
+     transform="translate(-65.75,-65.75)" />
+  <polygon
+     id="polygon273"
+     stroke="#000000"
+     stroke-width="0"
+     stroke-linejoin="bevel"
+     fill="#ffa425"
+     fill-opacity="0.25"
+     x="610"
+     y="98"
+     points="630,127.75 639.75,127.75 639.75,118 "
+     transform="translate(-65.75,-65.75)" />
+  <g
+     id="layer2"
+     fill="none"
+     transform="translate(-65.75,-65.75)" />
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="271.25"
+     y="203"
+     id="text845">Pd 90</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="203"
+     id="text887">Pd 91</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="203"
+     id="text925">Pd 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="335.25"
+     y="214.75"
+     id="text927">1.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="171"
+     id="text929">Ag 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="203"
+     id="text963">Pd 93</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="214.75"
+     id="text965">1.15 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="171"
+     id="text967">Ag 93</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="203"
+     id="text997">Pd 94</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="214.75"
+     id="text999">9.0 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="171"
+     id="text1001">Ag 94</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="182.75"
+     id="text1003">37 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="139"
+     id="text1005">Cd 94</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="203"
+     id="text1031">Pd 95</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="214.75"
+     id="text1033">7.5 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="171"
+     id="text1035">Ag 95</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="182.75"
+     id="text1037">1.76 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="139"
+     id="text1039">Cd 95</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="150.75"
+     id="text1041">90 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="203"
+     id="text1063">Pd 96</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="214.75"
+     id="text1065">122 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="171"
+     id="text1067">Ag 96</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="182.75"
+     id="text1069">4.44 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="139"
+     id="text1071">Cd 96</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="150.75"
+     id="text1073">880 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="107"
+     id="text1075">In 96</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="203"
+     id="text1093">Pd 97</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="214.75"
+     id="text1095">3.10 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="171"
+     id="text1097">Ag 97</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="182.75"
+     id="text1099">25.5 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="139"
+     id="text1101">Cd 97</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="150.75"
+     id="text1103">1.10 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="107"
+     id="text1105">In 97</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="118.75"
+     id="text1107">50 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="203"
+     id="text1121">Pd 98</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="214.75"
+     id="text1123">17.7 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="171"
+     id="text1125">Ag 98</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="182.75"
+     id="text1127">47.5 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="139"
+     id="text1129">Cd 98</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="150.75"
+     id="text1131">9.2 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="107"
+     id="text1133">In 98</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="118.75"
+     id="text1135">37 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="203"
+     id="text1145">Pd 99</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="214.75"
+     id="text1147">21.4 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="171"
+     id="text1149">Ag 99</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="182.75"
+     id="text1151">2.07 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="139"
+     id="text1153">Cd 99</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="150.75"
+     id="text1155">16 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="107"
+     id="text1157">In 99</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="118.75"
+     id="text1159">3.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="75"
+     id="text1161">Sn 99</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="171"
+     id="text1171">Ag 100</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="182.75"
+     id="text1173">2.01 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="139"
+     id="text1175">Cd 100</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="150.75"
+     id="text1177">49.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="107"
+     id="text1179">In 100</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="118.75"
+     id="text1181">5.83 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="75"
+     id="text1183">Sn 100</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="86.75"
+     id="text1185">1.16 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="139"
+     id="text1195">Cd 101</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="150.75"
+     id="text1197">1.36 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="107"
+     id="text1199">In 101</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="118.75"
+     id="text1201">15.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="75"
+     id="text1203">Sn 101</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="86.75"
+     id="text1205">1.97 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="107"
+     id="text1215">In 102</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="118.75"
+     id="text1217">23.3 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="75"
+     id="text1219">Sn 102</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="86.75"
+     id="text1221">3.8 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="75"
+     id="text1231">Sn 103</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="86.75"
+     id="text1233">7.0 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="43"
+     id="text1235">Sb 103</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="54.75"
+     id="text1237">&lt; 49n 1.0</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="43"
+     id="text1247">Sb 104</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="54.75"
+     id="text1249">470 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="11"
+     id="text1259">Te 105</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="22.75"
+     id="text1261">633 ns</text>
+  <rect
+     id="75Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="0.25"
+     y="350.25" />
+  <rect
+     id="76Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="32.25"
+     y="350.25" />
+  <rect
+     id="77Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="64.25"
+     y="350.25" />
+  <rect
+     id="77Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="32.25"
+     y="318.25" />
+  <rect
+     id="78Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="96.25"
+     y="350.25" />
+  <rect
+     id="78Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="64.25"
+     y="318.25" />
+  <rect
+     id="79Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="128.25"
+     y="350.25" />
+  <rect
+     id="79Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="96.25"
+     y="318.25" />
+  <rect
+     id="79Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="64.25"
+     y="286.25" />
+  <rect
+     id="80Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="160.25"
+     y="350.25" />
+  <rect
+     id="80Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="1"
+     x="128.25"
+     y="318.25" />
+  <rect
+     id="80Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="96.25"
+     y="286.25" />
+  <rect
+     id="81Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="192.25"
+     y="350.25" />
+  <rect
+     id="81Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="160.25"
+     y="318.25" />
+  <rect
+     id="81Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="128.25"
+     y="286.25" />
+  <rect
+     id="81Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="96.25"
+     y="254.25" />
+  <rect
+     id="82Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="224.25"
+     y="350.25" />
+  <rect
+     id="82Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="192.25"
+     y="318.25" />
+  <rect
+     id="82Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="160.25"
+     y="286.25" />
+  <rect
+     id="82Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="128.25"
+     y="254.25" />
+  <rect
+     id="83Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="256.25"
+     y="350.25" />
+  <rect
+     id="83Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="224.25"
+     y="318.25" />
+  <rect
+     id="83Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="192.25"
+     y="286.25" />
+  <rect
+     id="83Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="160.25"
+     y="254.25" />
+  <rect
+     id="84Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="350.25" />
+  <rect
+     id="84Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="256.25"
+     y="318.25" />
+  <rect
+     id="84Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="224.25"
+     y="286.25" />
+  <rect
+     id="84Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="192.25"
+     y="254.25" />
+  <rect
+     id="85Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="350.25" />
+  <rect
+     id="85Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="318.25" />
+  <rect
+     id="85Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="256.25"
+     y="286.25" />
+  <rect
+     id="85Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="224.25"
+     y="254.25" />
+  <rect
+     id="86Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="350.25" />
+  <rect
+     id="86Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="318.25" />
+  <rect
+     id="86Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="286.25" />
+  <rect
+     id="86Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="256.25"
+     y="254.25" />
+  <rect
+     id="87Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="350.25" />
+  <rect
+     id="87Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="318.25" />
+  <rect
+     id="87Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="286.25" />
+  <rect
+     id="87Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="288.25"
+     y="254.25" />
+  <rect
+     id="88Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="350.25" />
+  <rect
+     id="88Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="318.25" />
+  <rect
+     id="88Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="286.25" />
+  <rect
+     id="88Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="320.25"
+     y="254.25" />
+  <rect
+     id="89Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="448.25"
+     y="350.25" />
+  <rect
+     id="89Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="318.25" />
+  <rect
+     id="89Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="286.25" />
+  <rect
+     id="89Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="352.25"
+     y="254.25" />
+  <rect
+     id="90Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#62aeff"
+     fill-opacity="0.15"
+     x="480.25"
+     y="350.25" />
+  <rect
+     id="90Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="448.25"
+     y="318.25" />
+  <rect
+     id="90Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="286.25" />
+  <rect
+     id="90Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="384.25"
+     y="254.25" />
+  <rect
+     id="91Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#62aeff"
+     fill-opacity="0.15"
+     x="512.25"
+     y="350.25" />
+  <rect
+     id="91Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="480.25"
+     y="318.25" />
+  <rect
+     id="91Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="448.25"
+     y="286.25" />
+  <rect
+     id="91Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="416.25"
+     y="254.25" />
+  <rect
+     id="92Y0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#62aeff"
+     fill-opacity="0.15"
+     x="544.25"
+     y="350.25" />
+  <rect
+     id="92Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="512.25"
+     y="318.25" />
+  <rect
+     id="92Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="286.25" />
+  <rect
+     id="92Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="448.25"
+     y="254.25" />
+  <rect
+     id="93Zr0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#62aeff"
+     fill-opacity="0.15"
+     x="544.25"
+     y="318.25" />
+  <rect
+     id="93Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="512.25"
+     y="286.25" />
+  <rect
+     id="93Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#ff7e75"
+     fill-opacity="0.15"
+     x="480.25"
+     y="254.25" />
+  <rect
+     id="94Nb0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#62aeff"
+     fill-opacity="0.15"
+     x="544.25"
+     y="286.25" />
+  <rect
+     id="94Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="512.25"
+     y="254.25" />
+  <rect
+     id="95Mo0"
+     width="30"
+     height="30"
+     stroke="#000000"
+     stroke-width="0.5"
+     fill="#000000"
+     fill-opacity="0.15"
+     x="544.25"
+     y="254.25" />
+  <polygon
+     id="77Y1"
+     stroke="#000000"
+     stroke-width="0"
+     stroke-linejoin="bevel"
+     fill="#ffa425"
+     fill-opacity="0.15"
+     x="130"
+     y="482"
+     points="159.75,511.75 130.25,511.75 159.75,482.25 "
+     transform="translate(-65.75,-131.75)" />
+  <polygon
+     id="polygon265"
+     stroke="#000000"
+     stroke-width="0"
+     stroke-linejoin="bevel"
+     fill="#ffa425"
+     fill-opacity="0.25"
+     x="130"
+     y="482"
+     points="159.75,502 150,511.75 159.75,511.75 "
+     transform="translate(-65.75,-131.75)" />
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="15.25"
+     y="361"
+     id="text351">Y 75</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="47.25"
+     y="361"
+     id="text369">Y 76</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="79.25"
+     y="361"
+     id="text387">Y 77</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="79.25"
+     y="372.75"
+     id="text389">63 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="47.25"
+     y="329"
+     id="text391">Zr 77</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="111.25"
+     y="361"
+     id="text409">Y 78</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="111.25"
+     y="372.75"
+     id="text411">54 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="79.25"
+     y="329"
+     id="text413">Zr 78</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="143.25"
+     y="361"
+     id="text431">Y 79</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="143.25"
+     y="372.75"
+     id="text433">14.8 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="111.25"
+     y="329"
+     id="text435">Zr 79</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="111.25"
+     y="340.75"
+     id="text437">56 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="79.25"
+     y="297"
+     id="text439">Nb 79</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="79.25"
+     y="308.75"
+     id="text441">?</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="175.25"
+     y="361"
+     id="text459">Y 80</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="175.25"
+     y="372.75"
+     id="text461">30.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="143.25"
+     y="329"
+     id="text463">Zr 80</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="143.25"
+     y="340.75"
+     id="text465">4.6 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="111.25"
+     y="297"
+     id="text467">Nb 80</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="111.25"
+     y="308.75"
+     id="text469">?</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="207.25"
+     y="361"
+     id="text487">Y 81</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="207.25"
+     y="372.75"
+     id="text489">70.4 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="175.25"
+     y="329"
+     id="text491">Zr 81</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="175.25"
+     y="340.75"
+     id="text493">5.5 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="143.25"
+     y="297"
+     id="text495">Nb 81</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="143.25"
+     y="308.75"
+     id="text497">&lt;44 ns</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="111.25"
+     y="265"
+     id="text499">Mo 81</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="239.25"
+     y="361"
+     id="text517">Y 82</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="239.25"
+     y="372.75"
+     id="text519">8.30 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="207.25"
+     y="329"
+     id="text521">Zr 82</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="207.25"
+     y="340.75"
+     id="text523">32 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="175.25"
+     y="297"
+     id="text525">Nb 82</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="175.25"
+     y="308.75"
+     id="text527">50 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="143.25"
+     y="265"
+     id="text529">Mo 82</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="271.25"
+     y="361"
+     id="text547">Y 83</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="271.25"
+     y="372.75"
+     id="text549">7.08 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="239.25"
+     y="329"
+     id="text551">Zr 83</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="239.25"
+     y="340.75"
+     id="text553">42 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="207.25"
+     y="297"
+     id="text555">Nb 83</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="207.25"
+     y="308.75"
+     id="text557">3.9 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="175.25"
+     y="265"
+     id="text559">Mo 83</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="175.25"
+     y="276.75"
+     id="text561">23 ms</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="361"
+     id="text583">Y 84</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="303.25"
+     y="372.75"
+     id="text585">39.5 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="271.25"
+     y="329"
+     id="text587">Zr 84</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="271.25"
+     y="340.75"
+     id="text589">25.8 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="239.25"
+     y="297"
+     id="text591">Nb 84</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="239.25"
+     y="308.75"
+     id="text593">9.8 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="207.25"
+     y="265"
+     id="text595">Mo 84</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="207.25"
+     y="276.75"
+     id="text597">2.3 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="361"
+     id="text619">Y 85</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="335.25"
+     y="372.75"
+     id="text621">2.68 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="329"
+     id="text623">Zr 85</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="303.25"
+     y="340.75"
+     id="text625">7.86 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="271.25"
+     y="297"
+     id="text627">Nb 85</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="271.25"
+     y="308.75"
+     id="text629">20.5 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="239.25"
+     y="265"
+     id="text631">Mo 85</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="239.25"
+     y="276.75"
+     id="text633">3.2 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="361"
+     id="text657">Y 86</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="372.75"
+     id="text659">14.74 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="329"
+     id="text661">Zr 86</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="335.25"
+     y="340.75"
+     id="text663">16.5 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="297"
+     id="text665">Nb 86</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="303.25"
+     y="308.75"
+     id="text667">88 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="271.25"
+     y="265"
+     id="text669">Mo 86</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="271.25"
+     y="276.75"
+     id="text671">19.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="361"
+     id="text695">Y 87</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="372.75"
+     id="text697">79.8 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="329"
+     id="text699">Zr 87</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="340.75"
+     id="text701">1.68 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="297"
+     id="text703">Nb 87</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="335.25"
+     y="308.75"
+     id="text705">3.7 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="303.25"
+     y="265"
+     id="text707">Mo 87</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="303.25"
+     y="276.75"
+     id="text709">14.1 s</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="361"
+     id="text733">Y 88</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="372.75"
+     id="text735">106.626 d</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="329"
+     id="text737">Zr 88</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="340.75"
+     id="text739">83.4 d</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="297"
+     id="text741">Nb 88</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="308.75"
+     id="text743">14.50 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="335.25"
+     y="265"
+     id="text745">Mo 88</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="335.25"
+     y="276.75"
+     id="text747">8.0 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="463.25"
+     y="361"
+     id="text775">Y 89</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="463.25"
+     y="372.75"
+     id="text777">100.</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="329"
+     id="text779">Zr 89</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="340.75"
+     id="text781">78.41 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="297"
+     id="text783">Nb 89</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="308.75"
+     id="text785">2.03 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="367.25"
+     y="265"
+     id="text787">Mo 89</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="367.25"
+     y="276.75"
+     id="text789">2.11 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="361"
+     id="text817">Y 90</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="372.75"
+     id="text819">64.00 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="463.25"
+     y="329"
+     id="text821">Zr 90</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="463.25"
+     y="340.75"
+     id="text823">51.45</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="297"
+     id="text825">Nb 90</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="308.75"
+     id="text827">14.60 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="399.25"
+     y="265"
+     id="text829">Mo 90</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="399.25"
+     y="276.75"
+     id="text831">5.56 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="527.25"
+     y="361"
+     id="text859">Y 91</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="527.25"
+     y="372.75"
+     id="text861">58.51 d</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="495.25"
+     y="329"
+     id="text863">Zr 91</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="495.25"
+     y="340.75"
+     id="text865">11.22</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="463.25"
+     y="297"
+     id="text867">Nb 91</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="463.25"
+     y="308.75"
+     id="text869">680 y</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="431.25"
+     y="265"
+     id="text871">Mo 91</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="431.25"
+     y="276.75"
+     id="text873">15.49 m</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="361"
+     id="text897">Y 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="372.75"
+     id="text899">3.54 h</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="527.25"
+     y="329"
+     id="text901">Zr 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="527.25"
+     y="340.75"
+     id="text903">17.15</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="297"
+     id="text905">Nb 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="308.75"
+     id="text907">34.7 My</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="463.25"
+     y="265"
+     id="text909">Mo 92</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="463.25"
+     y="276.75"
+     id="text911">14.53</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="329"
+     id="text939">Zr 93</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="340.75"
+     id="text941">1.61 My</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="527.25"
+     y="297"
+     id="text943">Nb 93</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="527.25"
+     y="308.75"
+     id="text945">100.</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="495.25"
+     y="265"
+     id="text947">Mo 93</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="495.25"
+     y="276.75"
+     id="text949">4.0 ky</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#000000"
+     x="559.25"
+     y="297"
+     id="text977">Nb 94</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#000000"
+     x="559.25"
+     y="308.75"
+     id="text979">20.4 ky</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="527.25"
+     y="265"
+     id="text981">Mo 94</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="527.25"
+     y="276.75"
+     id="text983">9.15</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:7px;fill:#aaaaaa"
+     x="559.25"
+     y="265"
+     id="text1015">Mo 95</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:5px;fill:#aaaaaa"
+     x="559.25"
+     y="276.75"
+     id="text1017">15.84</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="19.25"
+     y="337.25"
+     id="text1309">40</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="83.25"
+     y="273.25"
+     id="text1311">42</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="243.25"
+     y="211.25"
+     id="text1315">46</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="307.25"
+     y="147.25"
+     id="text1317">48</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="403.25"
+     y="83.25"
+     id="text1319">50</text>
+  <text
+     text-anchor="middle"
+     font-family="sans"
+     style="font-size:10.5px;fill:#000000"
+     x="531.25"
+     y="19.25"
+     id="text1321">52</text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 63.25296,413.44713 226.45269,249.30288"
+     id="path2712"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 314.30248,228.32785 504.11963,39.24393"
+     id="path2714"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="m 226.45269,249.30288 87.84979,-20.97503"
+     id="path2716"
+     sodipodi:nodetypes="cc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.0379px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+     x="-251.59061"
+     y="340.06009"
+     id="text3543"
+     transform="rotate(-43.325409)"><tspan
+       sodipodi:role="line"
+       id="tspan3541"
+       x="-251.59061"
+       y="340.06009"
+       style="stroke-width:1">N=Z</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.0379px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+     x="300.11212"
+     y="366.83987"
+     id="text3543-3"
+     transform="rotate(-43.325409)"><tspan
+       sodipodi:role="line"
+       id="tspan3541-6"
+       x="300.11212"
+       y="366.83987"
+       style="stroke-width:1">N=Z</tspan></text>
+</svg>

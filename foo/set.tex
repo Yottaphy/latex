@@ -10,7 +10,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage[11pt]{moresize}
 \usepackage{anyfontsize}
-\usepackage{tikz-feynman}
 \usepackage{textgreek}
 %Figures
 \usepackage{graphicx}
@@ -20,7 +19,7 @@
 \captionsetup[figure]{font=small,labelfont=small}\usepackage{transparent}
 \usepackage{eso-pic}
 \usepackage{chngcntr}
-\graphicspath{{images/}}
+\graphicspath{{./images/}}
 %Tables
 \usepackage{tabu}
 \usepackage{longtable}
@@ -42,6 +41,12 @@
 \usepackage[makeroom]{cancel}
 \usepackage{mathrsfs}
 \usepackage{siunitx}
+
+%unit marker
+\newcommand{\unit}[1]{\,\text{#1}}
+
+%scientific notation shorthand
+\newcommand{\E}[1]{\times 10^{#1}}
 
 %Absolute value
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}

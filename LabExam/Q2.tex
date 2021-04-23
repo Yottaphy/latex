@@ -1,3 +1,63 @@
 \section{Recoil separators, reactions, energy losses}
+\newcommand{\la}{\ce{^{120}La}}
+
 
 \textbf{a)} To select the appropriate beam and target combination to use to produce \ce{^{120}La} in MARA, firstly, we need to determine what the possible beam compositions are. For that, we can visit the ECR Beam Database \cite{beams} of the University of Jyväskylä's Ion Source Group.
+
+To produce \la\ through fusion-evaporation, a suitable compound nucleus has to be produced, which will be more massive than \la. Candidates include \ce{^{122}Ce} (decaying to \la\ through the pn channel), \ce{^{123}Ce} (p2n channel), \ce{^{124}Pr} (2p2n channel), and other isotopes of lanthanum with a higher A, decaying through the xn channel, where x is A-120.
+
+To produce a compound in this region, a target of mass around A=65 is needed, with a beam of mass around A=60. By analysing the possible beams in \cite{beams} and the corresponding targets, with the condition that the target material should be a stable nucleus, the following reaction is chosen: a \ce{^{58}_{28}Ni_{30}} beam impinging on a \ce{^{66}_{30}Zn_{36}} target. This produces a compound nucleus of \ce{^{124}_{58}Ce^*_{76}}, which then can decay through the p3n channel to produce \ce{^{120}La}. 
+\begin{equation}
+    \label{reaction}
+    \ce{^{66}Zn} + \ce{^{58}Ni} \rightarrow \ce{^{124}Ce^*} \rightarrow \ce{^{120}La} + p + 3n.
+\end{equation}
+
+The reaction of \ce{^{58}Ni} onto \ce{^{63}Cu} to produce \ce{^{121}La^*} and evaporate one proton was also considered, but the fusion cross section was too low for the energies in which only one proton would be evaporated, making it almost impossible to get to \la\ with this particular reaction.
+
+\textbf{b)} To calculate the required bombarding energy, the separation energies of the intermediate nuclei have to be taken into account, to calculate the excitation energy, $E^*$, of the compound nucleus. These energies are shown in \autoref{tab:separationE}:
+\begin{table}[H]
+    \caption{Relevant separation energies for the compound nucleus and intermediate nuclei \cite{ame}.}
+    \label{tab:separationE}
+    \begin{tabular}{@{}ccc@{}}
+        \hline
+        Nucleus & $S_n$ [MeV] & $S_p$ [MeV]\\ \hline
+        \ce{^{124}Ce} &  -& 0.269\\
+        \ce{^{123}La} & 12.179 & -\\
+        \ce{^{122}La} & 10.424 & -\\
+        \ce{^{121}La} & 12.692 & -\\ \hline 
+        \textbf{Total} & 35.295 & 0.269 \\ \hline
+    \end{tabular}
+\end{table} 
+
+The energies in \autoref{tab:separationE} amount to a total separation energy of 35.564\unit{MeV}. In addtion, an average of 3\unit{MeV} of kinetic energy per emitted particle has to be taken into account. Since 4 nucleons will be emitted, 12\unit{MeV} have to be added, obtaining an excitation energy of $E^* = 47.6\unit{MeV}$. 
+
+It is now necessary to calculate the reaction Q-value, from their mass excess. The fusion Q-value will be:
+\begin{equation}
+    \label{qvalue}
+    Q_{fus} = -\Delta M(\text{compound}) + \Delta M(\text{target})+ \Delta M(\text{beam}),
+\end{equation}
+where $\Delta M$ represents the mass excess. \autoref{tab:masses} shows the mass excess for each of these nuclei according to \cite{ame}.
+
+\begin{table}[H]
+    \caption{Mass excess for the nuclei involved in the reaction in \autoref{reaction}~\cite{ame}.}
+    \label{tab:masses}
+    \begin{tabular}{@{}cc@{}}
+        \hline
+        Nucleus & $\Delta M$ [MeV] \\ \hline
+        \ce{^{124}Ce} &  -64.916\\
+        \ce{^{66}Zn}  &  -68.899\\
+        \ce{^{58}Ni}  &  -60.229\\ \hline 
+    \end{tabular}
+\end{table}
+The reaction Q-value, calculated using \autoref{qvalue}, is $Q_{fus} = -64.212\unit{MeV}$. Since the centre-of-mass energy is given by $E_{CM} = E^* - Q$, for this reaction $E_{CM} = 111.8\unit{MeV}$. By a simple conversion:
+\begin{equation}
+    {E_{lab} \approx \frac{A_A + A_B}{A_A}E_{CM}} \Rightarrow {E_{lab} =   \frac{66+58}{66}\times 111.8 = 210.1\unit{MeV}}.
+\end{equation}
+
+Calculating the Coulomb barrier energy as:
+\begin{equation}
+    {V_C = \frac{Z_1 Z_2}{A_1^{1/3}+ A_2^{1/3}} = \frac{28\cdot30}{58^{1/3}+66^{1/3}}=106.2\unit{MeV}},
+\end{equation}  
+we can see that the reaction is well above the Coulomb barrier, and therefore can occur. 
+
+The energy at the middle of the target (MOT) will be 210\unit{MeV}. Since the target is assumed to be 0.7\unit{mg/cm$^2$}, this means that the bombarding energy has to be such that the remaining energy after 0.35\unit{mg/cm$^2$} of target is 210\unit{MeV}. From SRIM \cite{srim}, we can obtain the stopping power of \ce{^{66}Zn} in \ce{^{58}Ni}, which is:

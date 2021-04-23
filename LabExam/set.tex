@@ -3,7 +3,6 @@
   includefoot,
   footskip=30pt
 ]{geometry}
-\usepackage{authblk}
 %Fonts
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -15,7 +14,10 @@
 \usepackage{wrapfig}
 \usepackage{floatrow}
 \usepackage{subfig}
-\captionsetup[figure]{font=small,labelfont=small}\usepackage{transparent}
+\usepackage[margin=0.4cm,labelfont=bf]{caption}
+\usepackage{transparent}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
 \usepackage{eso-pic}
 \usepackage{chngcntr}
 \graphicspath{{./images/}}
@@ -29,6 +31,8 @@
 \restylefloat{table}
 \renewcommand{\tablename}{Table}
 \usepackage{color, colortbl}
+\renewcommand*{\arraystretch}{1.111}
+\counterwithin{table}{section}
 %Maths
 \usepackage{amsmath}
 \usepackage{amssymb}

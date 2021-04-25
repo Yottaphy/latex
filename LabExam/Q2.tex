@@ -60,4 +60,83 @@ Calculating the Coulomb barrier energy as:
 \end{equation}  
 we can see that the reaction is well above the Coulomb barrier, and therefore can occur. 
 
-The energy at the middle of the target (MOT) will be 210\unit{MeV}. Since the target is assumed to be 0.7\unit{mg/cm$^2$}, this means that the bombarding energy has to be such that the remaining energy after 0.35\unit{mg/cm$^2$} of target is 210\unit{MeV}. From SRIM \cite{srim}, we can obtain the stopping power of \ce{^{66}Zn} in \ce{^{58}Ni}, which is:
+The energy at the middle of the target (MOT) will be 210\unit{MeV}. Since the target is assumed to be 0.7\unit{mg/cm$^2$}, this means that the bombarding energy has to jjjj such that the remaining energy after 0.35\unit{mg/cm$^2$} of target is 210\unit{MeV}. From SRIM \cite{srim}, we can obtain the stopping power of \ce{^{58}Ni} in \ce{^{66}Zn}, which is 20.71\unit{MeV/(mg/cm$^2$)} at 225\unit{MeV} beam energy. With this in mind, the energy loss in half of the target's thickness will be: $$20.71\unit{MeV/(mg/cm$^2$)}\times0.35\unit{mg/cm$^2$} = 7.25\unit{MeV},$$ making it so that the optimal bombarding energy is \textbf{217.25\unit{MeV}}. This was also verified with the LISE++ code \cite{lise}.
+\newpage
+\textbf{c)} To calculate the magnetic field and electric potential needed for \la's transport through MARA, it is necessary to obtain its kinetic energy after the target. It is possible to calculate its energy at the middle of the target, $T_{MOT}$, thanks to the conservation of angular momentum, as:
+\begin{equation}
+    \label{MOT}
+    T_{MOT} = E_{lab}\cdot\frac{A_{beam}}{A_{comp}}\cdot\frac{A_{recoil}}{A_{comp}} = 210\unit{MeV}\frac{58\cdot 120}{124^2} = 95\unit{MeV}.
+\end{equation}
+After this, the stopping power of \la\ in \ce{^{66}Zn} is needed, as this is the MOT energy. The recoils will still need to go through 0.35\unit{mg/cm$^2$} of target. Additionally, MARA has a thin, 20\unit{\textmu g/cm$^{2}$} carbon foil after the target position, which the recoil will also need to traverse. 
+
+The stopping power of \la\ in \ce{^{66}Zn} at 95\unit{MeV} is 28\unit{MeV/(mg/cm$^2$)}. Thus, after 0.35\unit{mg/cm$^2$}, the recoils would have deposited 10\unit{MeV} and be left with 85\unit{MeV}.
+
+The stopping power of \la\ in \ce{^{nat}C} at 85\unit{MeV} is 57\unit{MeV/(mg/cm$^2$)}. The thickness of the C foil is 0.02\unit{mg/cm$^2$}, so the recoil will deposit 1.1\unit{MeV} and therefore leave with a final kinetic energy of $T = 83.9\unit{MeV}$.
+
+It is now possible to calculate the recoil velocity from its kinetic energy, as: 
+\begin{equation}
+    \label{eq:velocity}
+    T = \frac{1}{2}mv^2 \Longrightarrow v = \sqrt{\frac{2T}{m}}.
+\end{equation}
+In this case, with the recoil's mass being $m = 120\unit{u}$, it is possible to obtain the velocity in terms of the speed of light as:
+\begin{equation}
+    \label{eq:vel_number}
+    v = \sqrt{\frac{2\cdot83.9\unit{MeV}}{120\unit{u}\cdot931.5\unit{MeV/(uc$^2$)}}} = 0.0387\unit{c}.   
+\end{equation}
+Which can be used to calculate the reduced speed with $v' = 0.012\unit c$ \cite{ND}:
+
+\begin{equation}
+    \label{eq:reduced}
+    x = \frac{v}{v'+Z^{0.45}} = 0.523,
+\end{equation}
+which serves to estimate the average charge state in which the recoils will leave. This will be calculated as \cite{ND}:
+\begin{equation}
+    \label{eq:charge}
+    \bar q = Z\left[1+ x^{-1/0.6}\right]^{-0.6} = 25.
+\end{equation}
+
+Also from \cite{ND}, we can find the distribution of charge states as:
+\begin{equation}
+    \label{eq:dist}
+    d_{\bar q} = \frac{1}{2}\sqrt{\bar q \left[1-\left(\frac{\bar q}{Z}\right)^{1/0.6}\right]} = 2.16 \rightarrow 2,
+\end{equation}
+which means that, although charge state 25 is the average and more commonly produced, charge states 24 and 26 will also be produced.
+
+Having this, the values for the deflector electric potential, $V$, and the magnetic dipole field, $B$, for MARA to focus this charge state to the centre of the focal plane will be:
+\begin{align}
+    V &= \frac{T}{q}\ln{\left(\frac{R_2}{R_1}\right)},    \label{eq:voltage}\\
+    B &= \frac{\sqrt{2mT}}{q\rho_B},         \label{eq:magnetic}
+\end{align}
+where $T$ is the alpha energy in MeV, $m$ is the mass of the recoil in u (120 in this case), $q$ is the charge of the particle (25 in this case), $\rho_B = 1\unit m$ is the magnetic radius and $R_2$ and $R_1$ are the outer and inner electrode radii, respectively, where, since MARA has a symmetric setup, $R_{\substack{1\\2}}  = \rho_E \mp 0.07$, as the half-radius of the deflector is subtracted or added to the electric radius, $\rho_E = 4\unit{m}$ \cite{saren}. 
+
+Solving these equations with the derived and given values, the resulting MARA optical tuning parameters to have the possible charge states centred at the focal plane are shown in \autoref{tab:maraparams}. 
+
+\begin{table}[H]
+    \caption{MARA Optical Parameters for \la\ at 83.9\unit{MeV} and relevant charge states.}
+    \label{tab:maraparams}
+\begin{tabular}{ccc}
+    \hline
+    Charge State & V[V] & B[T]\\ \hline
+    24 & 122\,367 & 0.602\\
+    25 & 117\,472 & 0.578\\
+    26 & 112\,954 & 0.556\\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{d) } By calculating the values of $m/q$ for the three relevant charge states shown in the previous section (q = {24,25,26}), and using $m=120$, it can be seen in \autoref{tab:chstates}, a one unit charge state difference with respect to $q=25$ results in a $\sim 4\%$ change in $m/q$.
+
+\begin{table}[H]
+    \caption{\la\ $m/q$ values for relevant charge states and their percentage difference with respect to $\bar q = 25$.}
+    \label{tab:chstates}
+\begin{tabular}{ccr}
+    \hline
+    Charge State & $m/q$ & \multirow{1}{*}{$\Delta(m/q)$ [\%]}\\ \hline
+    24 & 5.000 & +4.17\\
+    25 & 4.800 & 0.00\\
+    26 & 4.615 & -3.85\\ \hline
+\end{tabular}
+\end{table}
+
+Due to this, and considering the $8.00\unit{mm/(\%\ m/q)}$, charge states will be separated by 32\unit{mm} at the MWPC. Since the MWPC is 128\unit{mm} wide, with charge state 25 centred at its middle, there are 64\unit{mm} available at each side of the central charge state. Therefore, 2 additional charge states can fit the MWPC on each side of the central one, although the ones on the extremes may lose some counts if not very well focused. Therefore, we can say that we would expect \textbf{5 charge states within the MWPC} under ideal conditions.
+
+\textbf{e) }

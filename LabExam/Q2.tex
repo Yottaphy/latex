@@ -139,4 +139,90 @@ Solving these equations with the derived and given values, the resulting MARA op
 
 Due to this, and considering the $8.00\unit{mm/(\%\ m/q)}$, charge states will be separated by 32\unit{mm} at the MWPC. Since the MWPC is 128\unit{mm} wide, with charge state 25 centred at its middle, there are 64\unit{mm} available at each side of the central charge state. Therefore, 2 additional charge states can fit the MWPC on each side of the central one, although the ones on the extremes may lose some counts if not very well focused. Therefore, we can say that we would expect \textbf{5 charge states within the MWPC} under ideal conditions.
 
-\textbf{e) }
+\textbf{e) } Firstly, to calculate the angular cone, it is necessary to identify the three angular components of the recoils:
+\begin{enumerate}
+    \item Multiple scattering in the target foil, $\alpha_{1/2}^{scatt}$,
+    \item Angular component due to particle emission, $\alpha_{1/2}^{part}$,
+    \item Beam emittance from the cyclotron, $\alpha_{1/2}^{beam}$.
+\end{enumerate}
+
+The beam emittance from the cyclotron is fixed at $\alpha_{1/2}^{beam} = 5\unit{mrad}$, so only the other two components need to be calculated. 
+
+For the first one, it is necessary to calculate the reduced angles: 
+\begin{align*}
+    \label{eq:reduced}
+    \tilde \alpha &= \frac{aE_p}{Z_pZ_t(Z_p^{2/3}+Z_t^{2/3})^{1/2}}\alpha, \\
+    \tilde{\alpha}_{1/2} &\approx 0.25\tau,\\
+    \tau &= \frac{41.5\rho}{A_t(Z_p^{2/3}+Z_t^{2/3})},
+\end{align*} where $a=0.885a_0\left(Z_p^{2/3}+Z_t^{2/3}\right)^{-1/2}$, $a_0$ is Bohr's radius, $\rho$ is the thickness of the target and $t$ and $p$ in subscripts represent target and projectile, respectively.
+
+Combining all of these, we can arrive at:
+\begin{equation}
+    \label{eq:scatter}
+    \alpha_{1/2}^{scatt} = \frac{11.723\cdot Z_pZ_t\rho}{a_0E_pA_t}.
+\end{equation}  
+
+The projectile energy is $T_{MOT} = 95\unit{MeV}$, as calculated in \autoref{MOT}. In total, this amounts to $\mathbf{\alpha_{1/2}^{scatt} = 13.8\unit{\textbf{mrad}}}$.
+
+The angular component due to particle emission, $\alpha_{1/2}^{part}$, is defined as:
+\begin{equation}
+    \label{eq:particle}
+    \alpha_{1/2}^{part} = \frac{2.36}{2} \sigma = \frac{2.36}{2} \sqrt{\Omega_n},
+\end{equation} where 
+\begin{equation}
+    \label{eq:omega}
+    \Omega_n = \sum_i \frac{p_i^2}{3p_{comp}^2}.
+\end{equation}
+$p_i$ and $p_{comp}$ are the momenta of the emitted neutrons and the compound nucleus, respectively. Since $p^2 = \sqrt{2Em}$, and all 4 emitted particles are emitted with 3\unit{MeV} and have the same mass ($m_p \approx m_n$), \autoref{eq:omega} can be rewritten as:
+\begin{equation}
+    \label{eq:omega2}
+    \Omega_n = \frac{4\times 3\unit{MeV}\times 1\unit{u}}{3\times 98.2\unit{MeV}\times 124\unit{u}},
+\end{equation} due to $E_{comp} = \frac{A_{beam}}{A_{comp}}E_{lab} = \frac{58}{124}\times 210\unit{MeV} = 98.2\unit{MeV}$. In total, substituting \autoref{eq:omega2} into \ref{eq:particle}, we obtain the final angular component due to particle emission, $\mathbf{\alpha_{1/2}^{part} = 21.48\unit{\textbf{mrad}}}$.
+
+Combining all of these, the total angular cone turns out to be:
+\begin{equation}
+    \label{eq:cone}
+    \boxed{\alpha_{1/2} = \sqrt{13.8^2 + 21.4^2 + 5^2} =  26\unit{mrad}.}
+\end{equation}
+
+The angular acceptance of MARA is $\pm 50\unit{mrad}$ when considering both x and y directions, so the entire cone will be accepted.
+
+Finally, to calculate the energy straggling, it is necessary to calculate the individual components of energy straggling. These are:
+
+\textbf{i.} Beam energy distribution. This is calculated as $\Delta E_{beam} = 0.01 E_{beam}$, in this case, $\Delta E_{beam} = 2.1\unit{MeV}$.
+
+\textbf{ii.} Broadening due to thickness, calculated as:
+\begin{equation}
+    \label{eq:thickness}
+    \Delta E_{thick} = \abs{\delta E_{rec} + \delta E_{beam}\frac{A_{beam}}{A_{rec}}}.
+\end{equation}
+
+In this case,  $\delta E_{beam} = 14.5\unit{MeV}$ and $\delta E_{rec} = 10\unit{MeV}$, so $\Delta E_{thick} =17\unit{MeV}$.
+
+\textbf{iii.} Broadening due to straggling in the target foil, calculated as:
+\begin{equation}
+    \label{eq:straggling}
+    \Delta E_{strag} = 2.89\E{-2}\left[\delta E_{beam} Z_{beam}Z_{t}\left(Z_{beam}^{1/3}+Z_t^{1/3}\right)^{-2} + \delta E_{rec} Z_{rec}Z_{t}\left(Z_{rec}^{1/3}+Z_t^{1/3}\right)^{-2}\right]^{1/2}.
+\end{equation}
+
+In total, when substituting in, the result is $ \Delta E_{strag} =1.25\unit{MeV}$.
+
+\textbf{iv.} Broadening due to particle emission, calculated as:
+\begin{equation}
+    \label{eq:emission}
+    \Delta E_{part} = \frac{2\sqrt{8\ln 2}}{\sqrt{3}}\sqrt{\bar E_{rec}\frac{\bar E_n}{A_{rec}}},
+\end{equation} where $\bar E_n$ and $\bar E_{rec}$ are the average energies for the nucleons emitted and the recoil, respectively. $\bar E_n = 3\unit{MeV}$ and $\bar E_{rec}$ can be calculated as:
+\begin{equation}
+    \label{eq:recavg}
+    \bar E_{rec} = (A_{beam}\frac{A_{rec}}{A_{comp}^2})(E_{beam}-0.5\delta E_{beam}) - 0.5\delta E_{rec}.
+\end{equation}
+
+In this case, $ \bar E_{rec} = 99.4\unit{MeV}$ and thus, $\Delta E_{part} = 7.4\unit{MeV}$.
+
+In total now, we can calculate the total energy straggling:
+\begin{equation}
+    \label{eq:energy}
+    {2\delta_T = \sqrt{\Delta E_{beam}^2 + \Delta E_{thick}^2 + \Delta E_{strag}^2 + \Delta E_{part}^2} = 18.7\unit{MeV}} \Rightarrow \boxed{\delta_T = 9.4\unit MeV.}
+\end{equation}
+
+Since the emerging kinetic energy is 83.9\unit{MeV}, this $\delta_T$ is 11\%. Since MARA's energy acceptance is 20\%, this recoil will be entirely accepted.

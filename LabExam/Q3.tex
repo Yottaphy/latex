@@ -58,7 +58,18 @@ A particle can be accelerated by a known force which will result in a uniform ac
 thus, the mass of the particle can be obtained as: 
 \begin{equation}
     \label{eq:tof}
-    m = \frac{Ft_a}{x} (t_f-t_a) = \frac{Ft_a}{x} t_f- \frac{Ft_a^2}{x}.
+    m = \frac{Ft_a}{x} (t_f-t_a) = \frac{Ft_a}{x} \Delta t.
 \end{equation}
 
-Since $F$, the applied force, $t_a$, the time at whih
+Since $F$, the applied force, $t_a$, the time during which the force is applied, and $x$, the distance that the particle is left unaccelerated before being mesured, are fixed values, the mass resolution is only dependant on the precision of the measurement of $\Delta t$, the time of flight of the particle. 
+
+Since the mass resolution is dependent on this time of flight, and a longer time of flight will result in less loss in resolution for a variation in time of flight, some techniques aim to maximise the time of flight to minimise the loss in mass resolution. One such techinique is the \textbf{Multi-Reflection Time of Flight} (MR-TOF). This technique is based on the reflection of charged particles via electric and magnetic fields, in order to have them traverse a long distance (thus longer ToF), but while confined in a physically small space.
+
+\textbf{Radio-Frequency Quadrupoles} (RFQ) use alternating electric fields, at varying frequencies, to trap particles within a confined space. Particles inside an RFQ experience a force upon them \cite{traps}:
+\begin{equation}
+    \label{eq:rfq}
+    m \frac{\d^2 x}{\d t^2} = \frac{-2q}{r_0^2}\left[U + V\cos{\left(2\pi f t\right)}\right]x,
+\end{equation} 
+in a similar manner to other techniques, the only variable on which mass resolution depends is frequency, $f$. In this case, $U$ and $V$ are also dependent on $f$. The optimal frequencies for this techinque, as its name points at, are the Radio-Frequencies, from around 20\unit{kHz} to about 300\unit{GHz}. This is because the dependence with frequency in this case is not linear, unlike in the other cases presented, which means that an optimal point must be reached to optimise for mass resolution.
+
+A combination of the former and a strong, static magnetic field is the \textbf{Penning trap}. These traps use quadrupole electric fields for axial confinement and a strong magnetic field in the axial direction for radial confinement \cite{penning}. In this case, like with RFQs, there are specific frequencies that are of importance in mass analysis using these traps. Mass resolution is very high with the use of Penning traps, and the precision on frequency has to be very well known for accuracy in the mass measurements. Both RFQs and Penning traps are used at IGISOL, in the Univerisity of Jyväskylä.

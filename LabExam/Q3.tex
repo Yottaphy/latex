@@ -47,3 +47,18 @@ If, instead of an electrostatic field, a static magnetic field is used, the seco
 
 Similarly to the electrostatic case, the charge, radius and velocity are fixed for a particle coming into the magnetic field. Thus, only the field strength is relevant. In the case of MARA's dipole magnet \cite{saren}, the dipole radius is $\rho_B = 1\unit{m}$. Since the charge state and speed will be fixed, again there will be a linear dependance between mass resolution and $B$. This will be accentuated at lower $B$ values, as the percentage difference will be higher for the same change around the optimal setting, and a similar shape to that shown in \autoref{fig:massresE} will be seen.
 
+A different way of measuring the mass of a particle is the \textbf{Time of Flight} technique. This technique is based on the fact that applying a force on a particle will result on an acceleration which is inversely proportional to that particle's mass. This is a consequence of Newton's second law, $\vec F = m \vec a$. 
+
+When not under any force, a particle's velocity will be simply defined as the distance it is able to traverse in a certain amount of time, $v = \frac{\d x}{\d t}$. Therefore, if one can measure the time it takes for a particle to traverse a distance after having been accelerated, its mass can be determined as follows:
+
+A particle can be accelerated by a known force which will result in a uniform acceleration $a = F/m$ for a time $t_a$. The acceleration is then stopped, leaving the particle at a constant velocity: $v = \frac{F}{m}t_a$. The particle's linear velocity can be measured in the time interval $t_a$ to $t_f$ by the distance $x$ covered by the particle in that time $v = \frac{x}{t_f - t_a}$, thus arriving at:
+\begin{equation*}
+    \frac{F}{m} t_a  = \frac{x}{t_f-t_a},
+\end{equation*}
+thus, the mass of the particle can be obtained as: 
+\begin{equation}
+    \label{eq:tof}
+    m = \frac{Ft_a}{x} (t_f-t_a) = \frac{Ft_a}{x} t_f- \frac{Ft_a^2}{x}.
+\end{equation}
+
+Since $F$, the applied force, $t_a$, the time at whih

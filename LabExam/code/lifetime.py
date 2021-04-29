@@ -41,9 +41,10 @@ plt.plot(smooth, expo(smooth, *expot), '--', color='tab:red', label='Exponential
 plt.errorbar(timer, inten, yerr=error, fmt='o', color=k, label='Experimental data')
 #plt.yscale('log')
 plt.grid(which='major', axis='both', linestyle='--', linewidth=1)
-plt.ylim(0, 1.1)
+#plt.ylim(0, 1.1)
 plt.ylabel("Normalised Intensity")
 plt.xlabel("Time of Flight / ps")
+plt.yscale("log")
 plt.legend()
 plt.savefig("lifetime.pdf", bbox_inches = 'tight', pad_inches = 0.1, transparent=True)
 

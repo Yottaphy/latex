@@ -1,10 +1,8 @@
-\documentclass[12pt, a4paper, spanish, british, twoside]{article}
 \usepackage[
   margin=3.2cm,
   includefoot,
   footskip=30pt
 ]{geometry}
-\usepackage{authblk}
 %Fonts
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -16,7 +14,10 @@
 \usepackage{wrapfig}
 \usepackage{floatrow}
 \usepackage{subfig}
-\captionsetup[figure]{font=small,labelfont=small}\usepackage{transparent}
+\usepackage[margin=0.4cm,labelfont=bf]{caption}
+\usepackage{transparent}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
 \usepackage{eso-pic}
 \usepackage{chngcntr}
 \graphicspath{{./images/}}
@@ -30,17 +31,23 @@
 \restylefloat{table}
 \renewcommand{\tablename}{Table}
 \usepackage{color, colortbl}
+\renewcommand*{\arraystretch}{1.111}
+\counterwithin{table}{section}
 %Maths
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{dsfont}
 \usepackage{braket}
 \usepackage{mathtools}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
 \usepackage{slashed}
 \usepackage[makeroom]{cancel}
 \usepackage{mathrsfs}
 \usepackage{siunitx}
+\counterwithin{equation}{section}
+
+%degree symbol
+\renewcommand{\deg}{^{\circ}}
 
 %unit marker
 \newcommand{\unit}[1]{\,\text{#1}}
@@ -124,7 +131,7 @@
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[LE,RO]{FYSS6320}
+\fancyhead[LE,RO]{FYSS3550}
 \fancyhead[RE,LO]{\textsc{Jorge Romero}}
 \fancyfoot[RO,LE]{\thepage}
 \renewcommand{\footrulewidth}{1pt}

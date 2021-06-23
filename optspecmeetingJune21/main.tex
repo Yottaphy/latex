@@ -1,0 +1,41 @@
+\documentclass{beamer}
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{styles/jyumacros}
+\setbeamertemplate{caption}[​numbered]
+\usefolder{styles}
+\usetheme{jyu}
+\titlegraphic{assets/coverlogo.pdf}
+\newcommand{\smalllogo}{assets/small_white.pdf}
+\graphicspath{{./assets/}}
+
+\title{Current Status of MARA-LEB}
+\date{\today}
+\author[auth]{Jorge Romero}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+\begin{frame}{Frame 1}
+    \begin{itemize}
+        \item \textbf{Item}
+        \item Other Item \cite{article}
+        \item Something else \cite{inbook}
+    \end{itemize}
+\end{frame}
+\begin{frame}{Electrode Design}
+    \vspace*{2.5em}
+    \begin{figure}
+        \centering
+        \includegraphics[scale=0.2]{oldchamfer.pdf}\hspace{2em}
+        \includegraphics[scale=0.2]{newchamfer.pdf}
+        \caption{Old vs New Chamfer Geometry}
+    \end{figure}
+\end{frame}
+\begin{frame}[allowframebreaks]{References}
+    \bibliography{demo}
+    \bibliographystyle{elsarticle-num}
+  
+  \end{frame}
+\end{document}
